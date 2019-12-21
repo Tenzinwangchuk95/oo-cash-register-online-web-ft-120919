@@ -9,3 +9,5 @@ class Cash_register
   def new_item (title, price, quantitiy=1)
     self.total += (price * quantitiy)
   end
+  
+  def apply_discount
