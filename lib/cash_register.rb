@@ -4,3 +4,8 @@ class Cash_register
   def initialize (discount = 0)
     @total = 0 
     @discount = discount
+  end
+  
+  def new_item (title, price, quantitiy=1)
+    self.total += (price * quantitiy)
+  end
