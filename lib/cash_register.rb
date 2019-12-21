@@ -12,4 +12,5 @@ class Cash_register
   
   def apply_discount
     self.total -= @discount*10
-    if @discount 
+    if @discount > 0 
+      puts 
