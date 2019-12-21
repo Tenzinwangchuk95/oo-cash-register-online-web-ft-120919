@@ -18,3 +18,7 @@ class Cash_register
       puts "There is no discount to apply."
     end
   end
+  
+  def items
+  end 
+end
