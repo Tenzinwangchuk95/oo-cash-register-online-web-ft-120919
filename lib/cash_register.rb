@@ -11,6 +11,7 @@ class CashRegister
     self.total += (price * quantitiy)
     quantitiy.times do @items << title
   end
+  end
   
   def apply_discount
     self.total -= @discount*10
